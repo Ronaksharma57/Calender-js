@@ -14,7 +14,8 @@ The app could be enhanced in the following ways:
 * Adding the ability to select a range of dates
 * Adding the ability to save dates
 * Adding the ability to print dates
-Step 1: HTML
+  
+## Step 1: HTML
 Create an HTML file and include the following code:
 ```
 <!DOCTYPE html>
@@ -110,29 +111,8 @@ Create an HTML file and include the following code:
 </body>
 </html>
 ```
-d
-Auto Save Textarea
-Step 1: HTML
-Create an HTML file and include the following code:
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Save Textarea</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Auto Save Textarea :Ronak sharma</h1>
-        <textarea id="myTextarea" rows="10" cols="20" placeholder="Start typing ...."></textarea>
-    </div>
-    <script src="index.js"></script>
-</body>
-</html>
-
-Step 2: CSS
+ ## Step 2: CSS
 Create a CSS file and include the following code:
 ```
 *{
@@ -237,7 +217,7 @@ form{
 }
 
 ```
-Step 3: JavaScript
+ ## Step 3: JavaScript
 Create a JavaScript file and include the following code:
 ```
 const current = new Date();
