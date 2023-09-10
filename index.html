@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender : Ronak sharma</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <section class="month-year">
+             <select class="select-month">
+                <option disabled selected>Select Month</option>
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+             </select>
+             <select class="select-year">
+                <option disabled selected>Select Year</option>
+             </select>
+            
+            </section>
+            <section class="calender">
+                <ul class="week">
+                    <li>sun</li>
+                    <li>mon</li>
+                    <li>tue</li>
+                    <li>wed</li>
+                    <li>thu</li>
+                    <li>fri</li>
+                    <li>sat</li>
+                </ul>
+                <ul class="day">
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                    <li class="days"></li>
+                </ul>
+            </section>
+            <form class="date" onsubmit="ValidateDate(event)">
+             <input type="number" placeholder="Enter Date" min="1" max="31" required class="EnterDate"/>
+             <input type="submit" class="submit" value="Enter"/>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsZW5kYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+}
+.container{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 8px white;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+}
+.month-year{
+    width: 96%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+   
+}
+.selected-month-year{
+    color: white;
+}
+.calender{
+    width: 96%;
+    height: 60%;
+}
+.calender ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.calender ul li {
+    width: calc(100%/7);
+    text-align: center;
+   padding-top: 1.5%;
+   color: white;
+}
+.week{
+    height: 15%;
+    font-size: larger;
+}
+.week>li{
+    background-color: rgba(255, 69, 0,0.5);
+}
+.week>li:hover{
+    background-color: royalblue;
+    color: white;
+}
+.day{
+    height: 85%;
+}
+.day>li:hover{
+    background-color: white;
+    color: black;
+}
+.active{
+    background-color: green ;
+    border-radius: 5px;
+}
+.date{
+    /* border: 1px solid yellow; */
+    width: 96%;
+    height: 15%;
+}
+select{
+    font-size: larger;
+    padding: 1%;
+    margin-right: 2%;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.EnterDate{
+    font-size: larger;
+    padding: 1%;
+    margin-right: 2%;
+    width: 20%;
+}
+.submit{
+    font-size: larger;
+    padding: 1%;
+    background-color: royalblue;
+    color: white;
+    border: none;
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 95%;
+    }
+}
